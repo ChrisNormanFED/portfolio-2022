@@ -472,6 +472,7 @@ textarea:focus {
   transition: background-image .5s ease-in-out;
   background-image:url("/images/self.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #self-img:hover {
