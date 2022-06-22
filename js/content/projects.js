@@ -44,8 +44,8 @@ const projects = [
 		id: generateId(),
 		title: 'NICABM',
 		description:
-			'At NICABM I was a front-end developer working closely together with another back-end developer building fullstack web applications to process subscription payments',
-		technologies: [ 'Wordpress', 'SQL', 'Javascript', 'HTML/CSS' ],
+			'At NICABM I was a front-end developer working closely together with another back-end developer building fullstack web applications to process subscription payments.',
+		technologies: [ 'SQL', 'Javascript', 'HTML/CSS' ],
 		linkGithub: null,
 		linkWebsite: 'https://www.nicabm.com/',
 		img: '/images/projects/project-nicabm.jpg',

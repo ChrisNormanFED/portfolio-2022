@@ -82,7 +82,7 @@ let educationData = [
 		year: '2008 - 2013',
 		school: 'University of Connecticut',
 		description:
-			"Received a BS in Computer Science & Engineering and a minor in Cognitive Science"
+			"Received a BS in Computer Science & Engineering and a minor in Cognitive Science."
 	},
 ];
 
