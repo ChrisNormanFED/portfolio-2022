@@ -16,13 +16,14 @@
     transition: background-image 1s ease-in-out;
     background-image:url("/images/self.jpg");
 
+    &:hover {
+      background-image:url("/images/self-color.jpg");
+  }
+
     @include mobile {
         height: 280px;
         margin-bottom: 20px;
     }
-    &:hover {
-      background-image:url("/images/self-color.jpg");
-  }
 }
 
 #contact-illustration {

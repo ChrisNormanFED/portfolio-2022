@@ -467,8 +467,13 @@ textarea:focus {
   -webkit-box-shadow: 0 0 10px 5px #aa5ef610;
           box-shadow: 0 0 10px 5px #aa5ef610;
   border-radius: 50%;
+  transition: background-image 1s ease-in-out;
+  background-image:url("/images/self.jpg");
 }
 
+#self-img:hover {
+  background-image:url("/images/self-color.jpg");
+}
 @media (max-width: 900px) {
   #self-img {
     height: 280px;
@@ -869,6 +874,10 @@ textarea:focus {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 20px;
+}
+
+#hobbies {
+  pointer-events: none;
 }
 
 .skills-tab li {
