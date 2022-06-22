@@ -5,7 +5,7 @@ const experienceData = [
 		id: generateId(),
 		elemId: 'finalsite-content',
 		company: 'Finalsite',
-		companyLogoUrl: '/images/finalsite_logo.jpg',
+		companyLogoUrl: '/images/finalsite-icon.jpg',
 		role: 'Frontend Developer & Manager',
 		date: 'June 2014 - Now',
 		roles: [
@@ -22,7 +22,7 @@ const experienceData = [
 		id: generateId(),
 		elemId: 'nicabm-content',
 		company: 'NICABM',
-		companyLogoUrl: '/images/nicabm_logo.jpg',
+		companyLogoUrl: '/images/nicabm-icon.jpg',
 		role: 'Developer & Graphic Designer',
 		date: 'January 2011 - June 2014',
 		roles: [
@@ -37,7 +37,7 @@ const experienceData = [
 		id: generateId(),
 		elemId: 'techsupport-content',
 		company: 'Dynamic Fitness Results',
-		companyLogoUrl: '/images/uconn-logo.jpg',
+		companyLogoUrl: '/images/fitness-icon.png',
 		role: 'Frontend Developer',
 		date: 'January 2013',
 		roles: [
@@ -50,7 +50,7 @@ const experienceData = [
 		id: generateId(),
 		elemId: 'techsupport-content',
 		company: 'UConn Technology Support Center',
-		companyLogoUrl: '/images/uconn-logo.jpg',
+		companyLogoUrl: '/images/uconn-icon.jpg',
 		role: 'Technology Assistant',
 		date: 'December 2009 - January 2011',
 		roles: [

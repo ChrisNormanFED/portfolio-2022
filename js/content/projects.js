@@ -42,7 +42,7 @@ const projects = [
 	},
 	{
 		id: generateId(),
-		title: 'NICAM',
+		title: 'NICABM',
 		description:
 			'At NICABM I was a front-end developer working closely together with another back-end developer building fullstack web applications to process subscription payments',
 		technologies: [ 'Wordpress', 'SQL', 'Javascript', 'HTML/CSS' ],
