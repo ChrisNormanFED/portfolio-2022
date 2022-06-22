@@ -10,11 +10,14 @@
 
 #self-img {
     height: 300px;
+    width: 300px;
     border: 10px double $black;
     box-shadow: $box-shadow-light;
     border-radius: 50%;
-    transition: background-image 1s ease-in-out;
+    margin: 0 auto;
+    transition: background-image .5s ease-in-out;
     background-image:url("/images/self.jpg");
+    background-size: cover;
 
     &:hover {
       background-image:url("/images/self-color.jpg");

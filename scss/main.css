@@ -463,12 +463,15 @@ textarea:focus {
 
 #self-img {
   height: 300px;
+  width: 300px;
   border: 10px double #35323E;
   -webkit-box-shadow: 0 0 10px 5px #aa5ef610;
           box-shadow: 0 0 10px 5px #aa5ef610;
   border-radius: 50%;
-  transition: background-image 1s ease-in-out;
+  margin: 0 auto;
+  transition: background-image .5s ease-in-out;
   background-image:url("/images/self.jpg");
+  background-size: cover;
 }
 
 #self-img:hover {
