@@ -35,9 +35,9 @@ const experienceData = [
 	},
 	{
 		id: generateId(),
-		elemId: 'techsupport-content',
+		elemId: 'dynamic-content',
 		company: 'Dynamic Fitness Results',
-		companyLogoUrl: '/images/fitness-icon.png',
+		companyLogoUrl: '/images/fitness-icon.jpg',
 		role: 'Frontend Developer',
 		date: 'January 2013',
 		roles: [
@@ -48,7 +48,7 @@ const experienceData = [
 	},
 	{
 		id: generateId(),
-		elemId: 'techsupport-content',
+		elemId: 'uconntech-content',
 		company: 'UConn Technology Support Center',
 		companyLogoUrl: '/images/uconn-icon.jpg',
 		role: 'Technology Assistant',
