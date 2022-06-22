@@ -35,7 +35,7 @@ const experienceData = [
 	},
 	{
 		id: generateId(),
-		elemId: 'dynamic-content',
+		elemId: 'dynamicfitness-content',
 		company: 'Dynamic Fitness Results',
 		companyLogoUrl: '/images/fitness-icon.jpg',
 		role: 'Frontend Developer',

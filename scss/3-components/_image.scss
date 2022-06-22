@@ -7,35 +7,22 @@
     }
 }
 
-.about-img-container {
-
-    > img {
-      position: absolute;
-      top: calc(50% - 100px);
-      left: calc(50% - 100px);
-        &:last-of-type {
-        opacity: 1;
-        transition: opacity 0.5s ease-in-out;
-        -moz-transition: opacity 0.5s ease-in-out;
-        -webkit-transition: opacity 0.5s ease-in-out;
-      }
-    }
-
-    &:hover > img:last-of-type {
-    opacity: 0;
-  }
-}
 
 #self-img {
     height: 300px;
     border: 10px double $black;
     box-shadow: $box-shadow-light;
     border-radius: 50%;
+    transition: background-image 1s ease-in-out;
+    background-image:url("/images/self.jpg");
 
     @include mobile {
         height: 280px;
         margin-bottom: 20px;
     }
+    &:hover {
+      background-image:url("/images/self-color.jpg");
+  }
 }
 
 #contact-illustration {
