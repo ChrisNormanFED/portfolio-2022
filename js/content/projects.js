@@ -64,7 +64,7 @@ const displayProjectsDOM = () => {
 			const columnImg = `
                 <div class="col-lg-6" data-aos="zoom-in-right" data-aos-duration="1000">
                     <a href="${element.linkWebsite}" target="_blank"
-                    rel="noreferrer"><img loading="lazy" src="${element.img}" alt="${element.title}" class="project-img"></a>
+                    rel="noreferrer"><img loading="lazy" src="${element.img}" alt="${element.title}" class="project-img" width="100%" height="100%"></a>
                 </div>
             `;
 

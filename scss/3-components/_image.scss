@@ -1,9 +1,9 @@
 #illustration-landing {
-    height: 500px;
+    max-height: 500px;
     float: right;
 
     @include mobile {
-        height: 350px;
+        max-height: 350px;
     }
 }
 

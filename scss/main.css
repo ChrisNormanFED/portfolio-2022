@@ -451,13 +451,13 @@ textarea:focus {
 }
 
 #illustration-landing {
-  height: 500px;
+  max-height: 500px;
   float: right;
 }
 
 @media (max-width: 900px) {
   #illustration-landing {
-    height: 350px;
+    max-height: 350px;
   }
 }
 
