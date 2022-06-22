@@ -462,6 +462,9 @@ textarea:focus {
 }
 
 #self-img {
+  background-image: url("/images/self.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 300px;
   width: 300px;
   border: 10px double #35323E;
@@ -469,15 +472,14 @@ textarea:focus {
           box-shadow: 0 0 10px 5px #aa5ef610;
   border-radius: 50%;
   margin: 0 auto;
+  -webkit-transition: background-image .5s ease-in-out;
   transition: background-image .5s ease-in-out;
-  background-image:url("/images/self.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #self-img:hover {
-  background-image:url("/images/self-color.jpg");
+  background-image: url("/images/self-color.jpg");
 }
+
 @media (max-width: 900px) {
   #self-img {
     height: 280px;
