@@ -14,7 +14,7 @@
 @media (max-width: 900px) {
   .container {
     margin: 0 auto;
-    width: 95%;
+    width: 92%;
   }
 }
 
@@ -427,6 +427,8 @@ textarea:focus {
   }
   #tabs-experience li {
     display: table-cell;
+    width: auto;
+    line-height: 1.1;
   }
 }
 
@@ -458,7 +460,12 @@ textarea:focus {
 
 @media (max-width: 900px) {
   #illustration-landing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     max-height: 350px;
+    width: auto;
+    float: none;
   }
 }
 
@@ -803,6 +810,12 @@ textarea:focus {
   bottom: -5px;
 }
 
+@media (max-width: 900px) {
+  .active {
+    left: -2px;
+  }
+}
+
 .active-vertical {
   color: #ab5ef6 !important;
   border-left: 5px solid #760ADF !important;
@@ -821,6 +834,14 @@ textarea:focus {
   transform: translateY(30%);
   -webkit-animation: fadeIn 0.9s forwards;
   animation: fadeIn 0.9s forwards;
+}
+
+@media (max-width: 900px) {
+  .tabcontent,
+  .tabcontent-vertical {
+    -webkit-animation: fadeIn forwards;
+    animation: fadeIn forwards;
+  }
 }
 
 .tabcontent .job-title,
