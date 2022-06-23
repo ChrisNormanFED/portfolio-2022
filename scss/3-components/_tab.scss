@@ -37,10 +37,12 @@
         width: 20px;
         position: relative;
         bottom: -5px;
+        
+        @include mobile {
+          left: -2px;
+        }
     }
-    @include mobile {
-        left: -2px;
-    }
+
 }
 
 .active-vertical {

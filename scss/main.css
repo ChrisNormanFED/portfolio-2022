@@ -490,7 +490,7 @@ textarea:focus {
 @media (max-width: 900px) {
   #self-img {
     height: 280px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -811,7 +811,7 @@ textarea:focus {
 }
 
 @media (max-width: 900px) {
-  .active {
+  .active:after {
     left: -2px;
   }
 }
