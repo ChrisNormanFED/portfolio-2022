@@ -24,7 +24,7 @@ export default class Footer extends HTMLElement {
         </footer>
         <div class="sub-footer">
             <div class="container">
-            <p>Chris Norman | Portfolio 2022</p>
+            <p>Chris Norman | Portfolio 2023</p>
             </div>
         </div>
       `;
