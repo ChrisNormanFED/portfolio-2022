@@ -3,10 +3,10 @@ import { generateId } from '../content/projects.js';
 const experienceData = [
 	{
 		id: generateId(),
-		elemId: 'finalsite-content',
+		elemId: 'carenegie-content',
 		company: 'Carenegie',
 		companyLogoUrl: '/images/carnegie-icon.jpg',
-		role: 'Frontend Developer',
+		role: 'Front-end Developer',
 		date: 'June 2023 - Now',
 		roles: [
 			'Develop websites using appropriate web technologies such as HTML, CSS, and JavaScript. Ensuring responsive design for compatibility with various devices and screen sizes. Also includes converting media assets from Figma to create ADA-compliant HTML and accompanying CSS and JS files.',
@@ -14,14 +14,14 @@ const experienceData = [
 			'Optimize website performance by minimizing page load times. Compress images, use content delivery networks (CDNs), and reduce unnecessary JavaScript to enhance user experience.',
 			'Collaborate across departments to ensure our product and processes represent the voice and needs of our customers.'
 		],
-		tech: [ 'HTML/CSS', 'Atrso', 'React' ]
+		tech: [ 'HTML/CSS', 'Astro', 'React' ]
 	},
 		{
 		id: generateId(),
 		elemId: 'finalsite-content',
 		company: 'Finalsite',
 		companyLogoUrl: '/images/finalsite-icon.jpg',
-		role: 'Frontend Developer & Manager',
+		role: 'Front-end Developer & Manager',
 		date: 'June 2014 - June 2023',
 		roles: [
 			'Deploy complex, multi-phased sites for high profile education clients. Including converting media assets from Photoshop, Illustrator, Sketch, and Figma to create ADA-compliant HTML and accompanying CSS and SASS files.',
