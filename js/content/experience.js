@@ -9,10 +9,10 @@ const experienceData = [
 		role: 'Front-end Developer',
 		date: 'June 2023 - Now',
 		roles: [
-			'Develop websites using appropriate web technologies such as HTML, CSS, and JavaScript. Ensuring responsive design for compatibility with various devices and screen sizes. Also includes converting media assets from Figma to create ADA-compliant HTML and accompanying CSS and JS files.',
+			'Develop websites using appropriate web technologies such as HTML, CSS, and JavaScript. Ensuring responsive design for compatibility with various devices and screen sizes. Also converting media assets from Figma to create ADA-compliant HTML and accompanying CSS and JS files.',
 			'Ensure that the website complies with web accessibility standards (e.g., WCAG) to accommodate users with disabilities. Use semantic HTML, provide alternative text for images, and ensure keyboard navigation is smooth.',
 			'Optimize website performance by minimizing page load times. Compress images, use content delivery networks (CDNs), and reduce unnecessary JavaScript to enhance user experience.',
-			'Collaborate across departments to ensure our product and processes represent the voice and needs of our customers.'
+			'Collaborate across departments to ensure the website represents the voice and needs of our clients.'
 		],
 		tech: [ 'HTML/CSS', 'Astro', 'React' ]
 	},
@@ -28,7 +28,6 @@ const experienceData = [
 			'Projects include coding JavaScript files with Grunt, Gulp, and Webpack, using multiple integrated development environments, such as VS Code and ATOM.',
 			'Maintain code versions with BitBucket via Sourcetree.',
 			'Provide coaching, guidance, and career development for my team.',
-			'Collaborate across departments to ensure our product and processes represent the voice and needs of our customers.',
 			'Act as a final point of escalation for complex customer incidents and inquiries.'
 		],
 		tech: [ 'HTML/CSS', 'SCSS', 'jQuery', 'React' ]
