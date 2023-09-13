@@ -52,7 +52,7 @@ const experienceData = [
 		elemId: 'dynamicfitness-content',
 		company: 'Dynamic Fitness Results',
 		companyLogoUrl: '/images/fitness-icon.jpg',
-		role: 'Frontend Developer',
+		role: 'Front-end Developer',
 		date: 'January 2013',
 		roles: [
 			'Built a few WordPress websites and improved each website based on testing and user feedback by adding new features.',
