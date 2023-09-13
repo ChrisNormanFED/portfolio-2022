@@ -3,8 +3,8 @@ import { generateId } from '../content/projects.js';
 const experienceData = [
 	{
 		id: generateId(),
-		elemId: 'carenegie-content',
-		company: 'Carenegie',
+		elemId: 'carnegie-content',
+		company: 'Carnegie',
 		companyLogoUrl: '/images/carnegie-icon.jpg',
 		role: 'Front-end Developer',
 		date: 'June 2023 - Now',
