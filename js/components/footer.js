@@ -8,10 +8,7 @@ export default class Footer extends HTMLElement {
         <footer>
           <div class="container">
             <ul class="horizontal-list footer-socials" style="font-size: 30px;">
-                <li><a href="https://www.linkedin.com/in/chris-norman-06923948/" rel="noreferrer"
-                target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/ChrisNormanFED" rel="noreferrer" target="_blank"><i
-                    class="fab fa-github"></i></a></li>
+
                 <li><a href="mailto:chrisnormanfedATgmailDOTcom" onclick="this.href=this.href
                 .replace(/AT/,'@')
                 .replace(/DOT/,'.')" class="fas fa-envelope"></a></li>
